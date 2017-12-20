@@ -1,0 +1,126 @@
+*, *:before, *:after {
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+.container {
+margin: auto;
+margin-top: 20px;
+max-width: 680px;
+/*  width: 90%;*/
+/*  background-color: aliceblue;*/
+padding: 5px;
+/*border-width: 1px;
+border-color: gray;
+border-style: dotted;*/
+color: #0099cc;
+font-size: 15px;
+}
+.container2 {
+margin: auto;
+margin-top: 20px;
+max-width: 1000px;
+padding: 5px;
+/*font-family: 'Lora', serif;
+*/color: gray;
+font-size: 14px;
+}
+.column {
+padding: 10px;
+border: 1px;
+/*border-color: ghostwhite;
+border-style: dotted;*/
+}
+#friendStyle {
+text-align: center;
+font-family: 'Barlow Condensed', sans-serif;
+color: #0099cc;
+font-size: 55px;
+background-color: aliceblue;
+}
+#friendStyle2 {
+text-align: center;
+font-family: 'Barlow Condensed', sans-serif;
+color: #0099cc;
+font-size: 45px;
+}
+#imgStyle {
+width: 100%;
+height: auto;
+}
+#linkStyle {
+text-decoration: none;
+}
+#bodyStyle {
+text-align: center;
+font-family: 'Lora', serif;
+color: #0099cc;
+font-size: 18px;
+background-color: aliceblue;
+}
+#surveyBG {
+background-image: url(./assets/friendlogoSmall.jpg);
+background-repeat: repeat;
+opacity: 0.5;
+}
+#headerStyle {
+text-align: center;
+font-family: 'Lora', serif;
+background-color: aliceblue;
+color: #0099cc;
+font-size: 16px;
+}
+#footStyle {
+font-size: 10px;
+}
+#labelStyle {
+text-align: left;
+font-family: 'Barlow Condensed', sans-serif;
+color: #0099cc;
+font-size: 22px;
+}
+#labelStyle2 {
+text-align: center;
+}
+#labelStyle3 {
+text-align: center;
+font-family: 'Barlow Condensed', sans-serif;
+color: #0099cc;
+font-size: 40px;
+}
+.btn-primary {
+background: #0099cc;
+color: #ffffff;
+border-radius: 24px;
+padding-left: 70px;
+padding-right: 70px;
+font-family: 'Barlow Condensed', sans-serif;
+font-size: 28px;
+}
+.btn-primary2 {
+background: #0099cc;
+color: #ffffff;
+border-radius: 22px;
+padding-left: 70px;
+padding-right: 70px;
+font-family: 'Barlow Condensed', sans-serif;
+font-size: 24px;
+}
+#buttonStyle {
+text-align: center;
+background-color: aliceblue;
+}
+@media (min-width: 40rem) {
+.column {
+float: left;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+
+.column.full { width: 100%; }
+.column.two-thirds { width: 66.7%; }
+.column.half { width: 50%; }
+.column.third { width: 33.3%; }
+.column.fourth { width: 25%; }
+.column.flow-opposite { float: right; }
+}
